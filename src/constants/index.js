@@ -5,12 +5,10 @@ import {
     web,
     javascript,
     typescript,
-    css,
     reactjs,
     redux,
     jQuery,
     tailwind,
-    bootstrap,
     git,
     starfoods,
     addressLLC,
@@ -23,9 +21,7 @@ import {
     awesome_books,
     book_store,
     online_academy,
-    php,
     laravel,
-    wordpress,
     sql,
 
   } from "../assets";
@@ -87,10 +83,6 @@ import {
   
   const technologies = [
     {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
     },
@@ -114,28 +106,17 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Bootstrap",
-      icon: bootstrap,
-    },
-    
+
     {
       name: "git",
       icon: git,
     },
 
     {
-      name: "php",
-      icon: php,
-    },
-    {
       name: "laravel",
       icon: laravel,
     },
-    {
-      name: "wordpress",
-      icon: wordpress,
-    },
+
     {
       name: "sql",
       icon: sql,
