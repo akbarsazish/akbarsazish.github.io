@@ -30,7 +30,7 @@ const Hero = () => {
            <div className="w-1 sm:h-90 h-80 violet-gradient" />
         </div>
         {isCopied && 
-        <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
+        <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 green-pink-gradient">Email has been copied! </span>}
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Hi I'am <span className="text-[#915eff]"> Ali Akbar Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
