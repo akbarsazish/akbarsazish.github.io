@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import {FaCloudDownloadAlt } from 'react-icons/fa';
 
 import { styles } from '../styles';
-import { logo, menu, close } from '../assets';
+import { logo, menu, close, cv} from '../assets';
 import { navLinks } from '../constants/index';
 
 
@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <nav className={`${styles.paddingX} w-full flex items-center py-5 fixed top-0 z-20 bg-primary`}>
       <div className="w-full flex justify-between items-center mx-w-7xl mx-auto">
-        <Link className="flex items-center gap-2" to="/" onClick={()=>{setActive(""); window.scrollTo(0,0)} }>
+        <Link className="flex items-center gap-2 img-hover-zoom--slowmo" to="/" onClick={()=>{setActive(""); window.scrollTo(0,0)} }>
           <img className="w-9 h-9 object-contain" src={logo} alt="logo" />
            <p className="text-white font-bold cursor-pointer text[16px] flex"> Ali Akbar Sazish </p>
         </Link>
@@ -29,9 +29,12 @@ const Navbar = () => {
             ))
           }
           <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
-            <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
+          <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
+             Reusme <FaCloudDownloadAlt className="inline" />
+            </a>
           </li>
         </ul>
+
         <div className="sm:hidden flex flex-1 items-center justify-end">
           <img className="w-[28px] h-[28px] object-contain cursor-pointer"
           onClick={()=>{setToggle(!toggle)}} src={toggle ? close : menu} alt="menu" />
@@ -45,7 +48,8 @@ const Navbar = () => {
                   </li>
               )) }
                <li className="text-whitehover:text-white font-meduim cursor-pointer text[18px]">
-                  <a className="inline" href="../Ali Akbar Sazish CV.pdf" download="Ali Akbar Sazish CV.pdf">  Resume  <FaCloudDownloadAlt className="inline" /> </a>
+               <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
+                     Reusme <FaCloudDownloadAlt className="inline" /> </a>
               </li>
             </ul>
           </div>

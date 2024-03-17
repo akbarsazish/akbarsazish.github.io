@@ -1,15 +1,4 @@
 import {
-    mobile,
-    backend,
-    creator,
-    web,
-    javascript,
-    typescript,
-    reactjs,
-    redux,
-    jQuery,
-    tailwind,
-    git,
     starfoods,
     addressLLC,
     trade,
@@ -21,17 +10,9 @@ import {
     awesome_books,
     book_store,
     online_academy,
-    laravel,
-    sql,
-
   } from "../assets";
 
-
   export const navLinks = [
-    {
-      id: "about",
-      title: "About",
-    },
     {
       id: "work",
       title: "Work",
@@ -41,88 +22,8 @@ import {
       title: "Contact",
     },
   ];
-  
-  const services = [
-    {
-      title: "Frontend Developer",
-      icon: web,
-    },
-    {
-      title: "Backend Developer",
-      icon: mobile,
-    },
-    {
-      title: "Full Stack Developer",
-      icon: backend,
-    },
-    {
-      title: "Blockchain Developer",
-      icon: creator,
-    },
-  ];
 
-  const hobbies = [
-    {
-      title: "Frontend Developer",
-      icon: web,
-    },
-    {
-      title: "Backend Developer",
-      icon: mobile,
-    },
-    {
-      title: "Full Stack Developer",
-      icon: backend,
-    },
-    {
-      title: "Blockchain Developer",
-      icon: creator,
-    },
-  ];
 
-  
-  const technologies = [
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
-      name: "React JS",
-      icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "jQuery",
-      icon: jQuery,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-
-    {
-      name: "git",
-      icon: git,
-    },
-
-    {
-      name: "laravel",
-      icon: laravel,
-    },
-
-    {
-      name: "sql",
-      icon: sql,
-    },
-  ];
-  
   const experiences = [
     {
       title: "Frontend Developer",
@@ -208,33 +109,6 @@ import {
       { "soft": "Team work", "percentage": 80 },
       { "soft": "Mentoring", "percentage": 90 },
       { "soft": "Remote Pair-Programming", "percentage": 85 },
-  ];
-  
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
-    },
   ];
   
   const projects = [
@@ -410,4 +284,4 @@ import {
     },
   ];
   
-  export { services, hobbies, technologies, experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, testimonials,  projects };
+  export {experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, projects };
