@@ -47,7 +47,7 @@ import {
       points: [
         "Contributed to the development of a large software system that centralizes administrative operations of governmental civil ORGs across 34 provinces.",
         "The system focused on employee records and letter management in ministries and their departments.",
-        "Independently created 2 modules from scratch and participated as a team member on 5 additional projects.",
+        "Independently created 2 modules from scratch and participated as a team member on 3 additional projects.",
         "Played an essential role as part of a team of 189 IT and web developers in the successful deployment of the software to over 3,000 active users.",
       ],
     },
