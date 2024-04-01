@@ -45,10 +45,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2020 - Aug 2021",
       points: [
-        "Contributed to the development of a large software system that centralizes administrative operations of governmental civil ORGs across 34 provinces.",
+        "Contributed to developing a centralized software system for administrative operations across 34 provinces in governmental civil organizations.",
         "The system focused on employee records and letter management in ministries and their departments.",
-        "Independently created 2 modules from scratch and participated as a team member on 3 additional projects.",
-        "Played an essential role as part of a team of 189 IT and web developers in the successful deployment of the software to over 3,000 active users.",
+        "Independently created 2 modules and collaborated on 3 other projects.",
+        "Played essential role in deploying the software to over 3,000 active users as part of a 189-member IT and web development team.",
       ],
     },
     {
@@ -59,9 +59,8 @@ import {
       date: "Sep 2018 - Jan 2020",
       points: [
         "Retrieve information through database queries.",
-        "Work closely with developers to assist in database schema design and development tasks.",
+        "Work closely with developers to assist in database development tasks.",
         "Support database backup and recovery processes as needed.",
-        "Foster effective communication and collaboration with database developers to align with project requirements..",
       ],
     },
     {
