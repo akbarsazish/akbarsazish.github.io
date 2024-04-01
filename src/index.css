@@ -124,12 +124,7 @@ button {
 }
 
 button.pulse-button {
-  animation: borderPulse 1000ms infinite ease-out, colorShift 10000ms infinite ease-in;
-}
-
-button:hover,
-button:focus {
-  animation: borderPulse 1000ms infinite ease-out, colorShift 10000ms infinite ease-in, hoverShine 200ms;
+  animation: colorShift 10000ms infinite ease-in;
 }
 
 @keyframes colorShift {
@@ -144,15 +139,6 @@ button:focus {
   }
 }
 
-/* Declare border pulse animation */
-@keyframes borderPulse {
-  0% {
-    box-shadow: inset 0px 0px 0px 5px rgba(255, 255, 255,.4), 0px 0px 0px 0px rgba(255,255,255,1);
-  }
-  100% {
-    box-shadow: inset 0px 0px 0px 3px rgba(117, 117, 255,.2), 0px 0px 0px 10px rgba(255,255,255,0);
-  }
-}
 
 /* Declare shine on hover animation */
 @keyframes hoverShine {
@@ -195,14 +181,12 @@ legend span {
 }
 
 
-.img-hover-zoom--slowmo img {
+
+
+.img-hover-zoom--slowmo:hover img {
   transform-origin: 50% 65%;
   transition: transform 6s, filter 3s ease-in-out;
   animation: zoomInOut 11s infinite alternate;
-}
-
-.img-hover-zoom--slowmo:hover img {
-  transform: scale(3) translateY(30%);
 }
 
 @keyframes zoomInOut {

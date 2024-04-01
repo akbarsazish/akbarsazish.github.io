@@ -33,9 +33,9 @@ const Hero = () => {
         {isCopied && 
         <span className="text-white-100 w-full max-w-80 rounded flex place-self-center justify-center items-center p-3 fixed top-22 z-10 bg-gradient-to-r from-indigo-300">Email has been copied! </span>}
           <div>
-            <h1 className={`${styles.heroHeadText} text-white`}> Front End <span className="text-[#915eff]"> Engineer </span> </h1>
+            <h1 className={`${styles.heroHeadText} text-white`}> Ali Akbar  <span className="text-[#915eff]"> Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-                with over 3 years of experience specializing in JavaScript, TypeScript, React, and Redux. Proficient in working with backend technologies such as Laravel and SQL. I possess excellent communication and collaboration skills, and I am passionate about continuous learning and adapting to new technologies.
+            <span className="text-[#915eff] font-bold">  Frontend Engineer </span> (JavaScript, TypeScript, React and Redux Toolkit) with more than 3 years of experience. Proficient in backend technologies such as Laravel and SQL. Excellent communication and collaboration skills, and passionate for learning and adapting to new technologies.
             </p>
             
                 <span className="inline flex flex-row gap-2 mt-7">
