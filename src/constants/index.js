@@ -80,34 +80,34 @@ import {
   
 
   const frontEndSkills = [
-      { "front": "JavaScript", "percentage": 90 },
-      { "front": "TypeScript", "percentage": 80 },
-      { "front": "React & Redux Toolkit", "percentage": 85 },
-      { "front": "jQuery & Ajax", "percentage": 80 },
+      { "front": "JavaScript", "percentage": 85 },
+      { "front": "TypeScript", "percentage": 70 },
+      { "front": "React & Redux Toolkit", "percentage": 80 },
+      { "front": "jQuery & Ajax", "percentage": 75 },
       { "front": "Tailwind & Bootstrap", "percentage": 70 },
       { "front": "HTML & CCS", "percentage": 95 }
   ];
 
   const backEndSkills = [
-      { "backEnd": "PHP", "percentage": 60 },
-      { "backEnd": "Laravel", "percentage": 65 },
+      { "backEnd": "PHP", "percentage": 55 },
+      { "backEnd": "Laravel", "percentage": 60 },
       { "backEnd": "SQL", "percentage": 50 },
-      { "backEnd": "WordPress", "percentage": 70 },
+      { "backEnd": "WordPress", "percentage": 60 },
   ];
 
 
   const toolsAndMethods = [
-      { "tools": "Git & GitHub", "percentage": 85 },
-      { "tools": "API", "percentage": 80 },
+      { "tools": "Git & GitHub", "percentage": 80 },
+      { "tools": "API", "percentage": 75 },
       { "tools": "Responsive Dev", "percentage": 90 },
-      { "tools": "Chrome Dev Tools", "percentage": 85 },
+      { "tools": "Chrome Dev Tools", "percentage": 80 },
   ];
 
   const softSkills = [
-      { "soft": "Problem solving", "percentage": 85 },
+      { "soft": "Problem solving", "percentage": 80 },
       { "soft": "Team work", "percentage": 80 },
-      { "soft": "Mentoring", "percentage": 90 },
-      { "soft": "Remote Pair-Programming", "percentage": 85 },
+      { "soft": "Mentoring", "percentage": 80 },
+      { "soft": "Remote Pair-Programming", "percentage": 80 },
   ];
   
   const projects = [
