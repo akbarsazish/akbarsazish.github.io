@@ -32,10 +32,10 @@ import {
       iconBg: "#383E56",
       date: "Apr 2022 - PRESENT",
       points: [
-        "Developing and maintaining web applications using JavaScript, TypeScript, React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Develop and maintain web applications using JavaScript, TypeScript, React, and related technologies.",
+        "Collaborate with back-end developers to integrate front-end and back-end functionalities.",
+        "Translate design concepts into functional code by working with UI/UX designers",
         "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
     {
@@ -45,9 +45,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2020 - Aug 2021",
       points: [
-        "Contributed to developing a centralized software system for administrative operations across 34 provinces in governmental civil organizations.",
+        "Contributed to developing a centralized software system for administrative operations in governmental civil organizations.",
         "The system focused on employee records and letter management in ministries and their departments.",
-        "Independently created 2 modules and collaborated on 3 other projects.",
+        "Independently developed 2 modules and collaborated on 3 additional projects.",
         "Played essential role in deploying the software to over 3,000 active users as part of a 189-member IT and web development team.",
       ],
     },
@@ -58,7 +58,7 @@ import {
       iconBg: "#383E56",
       date: "Sep 2018 - Jan 2020",
       points: [
-        "Retrieve information through database queries.",
+        "Manage databases for storing and organizing information, keeping it safe and accurate.",
         "Work closely with developers to assist in database development tasks.",
         "Support database backup and recovery processes as needed.",
       ],
