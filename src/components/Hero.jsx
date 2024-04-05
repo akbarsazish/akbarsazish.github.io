@@ -1,7 +1,8 @@
 import React, { useState} from "react";
 import {FaFacebook, FaGithub, FaInstagram, FaLinkedinIn, FaTwitter} from 'react-icons/fa';
 import { MdOutgoingMail } from "react-icons/md";
-import { SectionWrapper } from "../hoc"
+import {cv} from '../assets';
+import {FaCloudDownloadAlt } from 'react-icons/fa';
 import { styles } from "../styles";
 
 const Hero = () => {
@@ -36,7 +37,11 @@ const Hero = () => {
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}> Ali Akbar  <span className="text-[#915eff]"> Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
-            <span className="text-[#915eff] font-bold">  Frontend Engineer </span> (JavaScript, TypeScript, React and Redux Toolkit) with more than 3 years of experience. Proficient in backend technologies such as Laravel and SQL. Excellent communication and collaboration skills, and passionate for learning and adapting to new technologies.
+            <span className="text-[#915eff] font-bold">  Frontend Engineer </span> 
+               Frontend Engineer (JavaScript, TypeScript, React) with 3+ years of experience. Strong ownership mindset, proficient in frontend technologies, excellent communication and collaboration skills, and a passion for learning and adapting to new technologies.
+                {/* <div className='black-gradient py-2 px-4 font-[12px] rounded-xl outline-none w-fit text-white shadow-md shadow-primary'> <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
+             Download Reusme <FaCloudDownloadAlt className="inline" />
+            </a> </div> */}
             </p>
             
                 <span className="inline flex flex-row gap-2 mt-7">
