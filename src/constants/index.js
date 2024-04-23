@@ -76,6 +76,18 @@ import {
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
     },
+    {
+      title: "Mentor (Volunteer)",
+      company_name: "Microver",
+      icon: education,
+      iconBg: "#E6DEDD",
+      date: "May 2023 - Aug 2023",
+      points: [
+        "Mentored junior web developers, providing technical support through code reviews.",
+        "Proposed improvements to code organization to improve code quality and overall performance.",
+        "Provided advice and tips on how to maintain motivation to maintain longevity in the program.",
+      ],
+    },
   ];
   
 
