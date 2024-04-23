@@ -3,6 +3,7 @@ import {
     addressLLC,
     trade,
     education,
+    microvers,
     starfood,
     crm,
     math,
@@ -79,7 +80,7 @@ import {
     {
       title: "Mentor (Volunteer)",
       company_name: "Microver",
-      icon: education,
+      icon: microvers,
       iconBg: "#E6DEDD",
       date: "May 2023 - Aug 2023",
       points: [

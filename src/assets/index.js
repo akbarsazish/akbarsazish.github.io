@@ -7,6 +7,7 @@ import starfoods from "./company/starfoods.png";
 import addressLLC from "./company/addressLLC.png";
 import trade from "./company/trade.png";
 import education from "./company/education.png";
+import microvers from "./company/microvers.png";
 
 import starfood from "./starfood.png";
 import crm from "./crm.png";
@@ -25,6 +26,7 @@ export {
   addressLLC,
   trade,
   education,
+  microvers,
   starfood,
   crm,
   math,
