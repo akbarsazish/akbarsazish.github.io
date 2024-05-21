@@ -16,6 +16,8 @@ import air_pollution from "./air_pollution.png";
 import awesome_books from "./awesome_books.png";
 import book_store from "./book_store.png";
 import online_academy from "./online_academy.png";
+import accounting from "./accounting.jfif";
+import sattagydia from "./sattagydia.png";
 
 export {
   logo,
@@ -33,5 +35,7 @@ export {
   air_pollution,
   awesome_books,
   book_store,
-  online_academy
+  online_academy,
+  accounting,
+  sattagydia
 };

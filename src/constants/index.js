@@ -11,6 +11,9 @@ import {
     awesome_books,
     book_store,
     online_academy,
+    accounting,
+    sattagydia,
+
   } from "../assets";
 
   export const navLinks = [
@@ -105,7 +108,7 @@ import {
       { "backEnd": "PHP", "percentage": 55 },
       { "backEnd": "Laravel", "percentage": 60 },
       { "backEnd": "SQL", "percentage": 50 },
-      { "backEnd": "WordPress", "percentage": 60 },
+      { "backEnd": "WordPress", "percentage": 70 },
   ];
 
 
@@ -124,6 +127,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Kasbstar",
+      description:"The KasbStar accounting web application offers a user-friendly interface for customers to manage their financial operations. The application includes automated bookkeeping, invoicing and billing, tracking orders, tracking cheque operation, and expense tracking features. It also offers financial reporting and project or inventory management capabilities.",
+      tags: [
+        { name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        { name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+       
+        { name: "CSS",
+          color: "pink-text-gradient",
+        },
+        { name: "Laravel",
+          color: "blue-text-gradient",
+        },
+        { name: "SQL Server",
+          color: "green-text-gradient",
+        },
+      ],
+      image: accounting,
+      source_code_link: "https://github.com/akbarsazish/str-admin-panel",
+      see_live_link: "https://starfoods.ir/loginAdmin",
+    },
+
     {
       name: "Starfoods",
       description:"Starfoods demonstrates my web development skills, emphasizing user-friendly interfaces, smooth shopping experiences, secure payments, and quick shipping. Explore my work to see how I can enhance your next project.",
@@ -177,6 +206,32 @@ import {
       source_code_link: "https://github.com/akbarsazish/crm-update",
       see_live_link: "https://star4.ir",
     },
+
+    {
+      name: "Sattagydia",
+      description: "Sattagydia.com is a responsive news website focused on providing the latest updates news. Developed using WordPress, it offers a modern, visually appealing design that adapts seamlessly across devices. The responsive layout ensures an optimal viewing experience on desktops, tablets, and mobiles.",
+      tags: [
+        { name: "WordPress",
+          color: "blue-text-gradient",
+        },
+        { name: "JavaScript",
+          color: "green-text-gradient",
+        },
+        {name: "Bootstrap",
+          color: "pink-text-gradient",
+        },
+        {name: "CSS",
+          color: "blue-text-gradient",
+        },
+        { name: "MySql",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sattagydia,
+      source_code_link: "https://sattagydia.com/",
+      see_live_link: "https://sattagydia.com/",
+    },
+
     {
       name: "Math",
       description: "Math magicians is a website for all fans of mathematics. It allows user to make simple calculations and read random math related qoutes.",
