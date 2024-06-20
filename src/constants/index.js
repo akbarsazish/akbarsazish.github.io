@@ -36,9 +36,9 @@ import {
       iconBg: "#383E56",
       date: "Apr 2022 - PRESENT",
       points: [
-        "Develop and maintain web applications using JavaScript, TypeScript, React, and related technologies.",
+        "Develop and maintain 3 responsive web applications to enhance the user experience for over 1K+ customers.",
         "Collaborate with back-end developers to integrate front-end and back-end functionalities.",
-        "Translate design concepts into functional code by working with UI/UX designers",
+        "Translate design concepts into functional code by working with UI/UX designers.",
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
@@ -49,10 +49,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2020 - Aug 2021",
       points: [
-        "Contributed to developing a centralized software system for administrative operations in governmental civil organizations.",
-        "The system focused on employee records and letter management in ministries and their departments.",
-        "Independently developed 2 modules and collaborated on 3 additional projects.",
-        "Played essential role in deploying the software to over 3,000 active users as part of a 189-member IT and web development team.",
+        "Developed, with a team of 10 developers, a centralized system for managing employee records and official correspondence in governmental civil organizations.",
+        "Independently developed two modules and collaborated on three projects, enabling efficient management of letters, employee attendance, records, tasks, and salary payments.",
+        "Played an essential role in deploying the software to over 3,000 active users as part of a 189-member IT and web development team.",
       ],
     },
     {
@@ -62,9 +61,10 @@ import {
       iconBg: "#383E56",
       date: "Sep 2018 - Jan 2020",
       points: [
-        "Manage databases for storing and organizing information, keeping it safe and accurate.",
-        "Work closely with developers to assist in database development tasks.",
-        "Support database backup and recovery processes as needed.",
+        "Collaborated in designing and developing databases for large data volumes.",
+        "Managed and maintained Databases to ensure that the databases are running smoothly.",
+        "Implemented data security policies and controls to significantly increase safeguarding against unauthorized access and potential breaches.",
+        "Ensured timely backup and recovery processes to minimize data loss and downtime.",
       ],
     },
     {
@@ -74,10 +74,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Feb 2017 - Aug 2018",
       points: [
-        "Coordinated the distribution of ID cards for Kankor Examination volunteers.",
-        "Managed the registration process for Kankor Examination volunteers, verifying their identity through eye detection and fingerprint scanning.",
-        "Facilitated the seamless transfer of database data between computers and the server through efficient export and import operations..",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Registered Kankor Examination volunteers meticulously to ensure their identity by capturing their information, taking their photo, and collecting their fingerprints.",
+        "Designed and issued identification cards for the volunteers from scratch.",
+        "Consolidated data from multiple sources and integrated it into a centralized database, resulting in significant cost savings for the government.",
       ],
     },
     {
