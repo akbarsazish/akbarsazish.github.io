@@ -119,10 +119,10 @@ import {
   ];
 
   const softSkills = [
-      { "soft": "Problem solving", "percentage": '%' },
-      { "soft": "Team work", "percentage": '%' },
-      { "soft": "Mentoring", "percentage": '%' },
-      { "soft": "Time Management", "percentage": '%' },
+      { "soft": "Problem solving", "percentage": 80 },
+      { "soft": "Team work", "percentage": 80 },
+      { "soft": "Mentoring", "percentage": 80 },
+      { "soft": "Time Management", "percentage": 80 },
   ];
   
   const projects = [
