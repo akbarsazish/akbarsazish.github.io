@@ -39,7 +39,7 @@ const Hero = () => {
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             <span className="text-[#915eff] font-bold"> Full-stack developer </span> 
                 with over <span className="text-[#915eff] font-bold">  4 </span>
-                 years of experience, specializing in frontend development using <span className="text-[#915eff] font-bold"> JavaScript, TypeScript, and React </span> to create innovative and user-friendly interfaces. Excellent communication and collaboration skills, and a passion for learning and adapting to new technologies.
+                 years of experience, and strengths in frontend development using <span className="text-[#915eff] font-bold"> JavaScript, TypeScript, and React. </span> Skilled in IT management, leading teams, and adapting to new technologies. Passionate about creating user-friendly interfaces and delivering high-quality solutions.
                 {/* <div className='black-gradient py-2 px-4 font-[12px] rounded-xl outline-none w-fit text-white shadow-md shadow-primary'> <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
              Download Reusme <FaCloudDownloadAlt className="inline" />
             </a> </div> */}

@@ -43,15 +43,16 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "ADRAS (Afghanistan Development and Registry and Addressing Services)",
-      icon: addressLLC,
+      title: "General IT Manager",
+      company_name: "Ministry of Industry and commerce",
+      icon: trade,
       iconBg: "#E6DEDD",
-      date: "Feb 2020 - Aug 2021",
+      date: "Jan 2020 - Nov 2021",
       points: [
-        "Developed, with a team of 10 developers, a centralized system for managing employee records and official correspondence in governmental civil organizations.",
-        "Independently developed two modules and collaborated on three projects, enabling efficient management of letters, employee attendance, records, tasks, and salary payments.",
-        "Played an essential role in deploying the software to over 3,000 active users as part of a 189-member IT and web development team.",
+        "Manage and direct all IT operations to ensure systems function efficiently and align with organizational needs.",
+        "Lead and supervise the IT team, training, and evaluating staff performance.",
+        "Develop and manage the IT budget to ensure cost-effectiveness and alignment with strategic goals.",
+        "Establish and enforce policies to protect the organization’s data and IT assets, including disaster recovery and data backup strategies.",
       ],
     },
     {
@@ -123,6 +124,7 @@ import {
       { "soft": "Team work", "percentage": 80 },
       { "soft": "Mentoring", "percentage": 80 },
       { "soft": "Time Management", "percentage": 80 },
+      { "soft": "Leadership", "percentage": 80 },
   ];
   
   const projects = [
