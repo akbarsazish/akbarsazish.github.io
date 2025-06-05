@@ -17,7 +17,7 @@ const ExperienceCard = ({ experience }) => (
               <img src={experience.icon} alt={experience.company_name} className="w-[60%] h-[60%] object-contain" />
           </div>}>
       <div> 
-        <h3 className="text-white font-bold text-[24px]">{experience.title}</h3>
+        <h3 className="text-white font-bold text-[24px]">{experience.title}  </h3>
         <p className="text-secondary text-[16px] font-semibold"> {experience.company_name} </p>
       </div>
       <ul className="mt-5 list-disc ml-5 space-y-2">

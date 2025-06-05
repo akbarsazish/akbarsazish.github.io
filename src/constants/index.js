@@ -1,17 +1,13 @@
 import {
+    likeCard,
     starfoods,
-    addressLLC,
+    accounting,
     trade,
     education,
     microvers,
     starfood,
+    tawseel,
     crm,
-    math,
-    air_pollution,
-    awesome_books,
-    book_store,
-    online_academy,
-    accounting,
     sattagydia,
 
   } from "../assets";
@@ -30,11 +26,25 @@ import {
 
   const experiences = [
     {
+      title: "Full Stack Developer",
+      company_name: "Tawseel E-Commerce and Logistic LLC (Oman)",
+      icon: tawseel,
+      iconBg: "#383E56",
+      date: "March 2025 - PRESENT",
+      points: [
+        "Design and develop user-friendly front-end interfaces, server-side logic and APIs.",
+        "Integrate third-party services and APIs to extend application functionality.",
+        "Ensure application security, including authentication, authorization, and data protection.",
+        "Test, debug, and troubleshoot issues in both front-end and back-end components.",
+        "TCollaborate with designers, product managers, and other developers to deliver complete solutions.",
+      ],
+    },
+    {
       title: "Frontend Developer",
-      company_name: "Artam Almas Alborz",
+      company_name: "Artam Almas Alborz (Iran)",
       icon: starfoods,
       iconBg: "#383E56",
-      date: "Apr 2022 - PRESENT",
+      date: "Apr 2022 - March 2025",
       points: [
         "Develop and maintain 3 responsive web applications to enhance the user experience for over 1K+ customers.",
         "Collaborate with back-end developers to integrate front-end and back-end functionalities.",
@@ -42,6 +52,7 @@ import {
         "Implementing responsive design and ensuring cross-browser compatibility.",
       ],
     },
+
     {
       title: "General IT Manager",
       company_name: "Ministry of Industry and commerce",
@@ -105,9 +116,10 @@ import {
   ];
 
   const backEndSkills = [
-      { "backEnd": "PHP", "percentage": 55 },
-      { "backEnd": "Laravel", "percentage": 60 },
-      { "backEnd": "SQL", "percentage": 50 },
+      { "backEnd": "PHP", "percentage": 70 },
+      { "backEnd": "Laravel", "percentage": 75 },
+      { "backEnd": "CodeIgniter", "percentage": 70 },
+      { "backEnd": "SQL", "percentage": 70 },
       { "backEnd": "WordPress", "percentage": 70 },
   ];
 
@@ -129,13 +141,36 @@ import {
   
   const projects = [
     {
-      name: "Kasbstar",
-      description:"The KasbStar accounting web application offers a user-friendly interface for customers to manage their financial operations. The application includes automated bookkeeping, invoicing and billing, tracking orders, tracking cheque operation, and expense tracking features. It also offers financial reporting and project or inventory management capabilities.",
+      name: "Like Card",
+      description:"This project integrates a secure server-to-server API for card-based payments, enabling customers to purchase products seamlessly. It processes transactions directly on the backend, ensuring fast, secure, and customizable checkout without, while maintaining compliance and real-time validation for a smooth payment experience.",
       tags: [
-        { name: "TypeScript",
+        { name: "React",
           color: "blue-text-gradient",
         },
-        { name: "Bootstrap",
+        { name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+       
+        { name: "Laravel",
+          color: "pink-text-gradient",
+        },
+        { name: "MySQL",
+          color: "green-text-gradient",
+        },
+      ],
+      image: likeCard,
+      source_code_link: "https://github.com/akbarsazish/likeCard/tree/master",
+      see_live_link: "https://likecardu.tawseelonline.om/",
+    },
+
+    {
+      name: "Kasb Star",
+      description:"Starfoods demonstrates my web development skills, emphasizing user-friendly interfaces, smooth shopping experiences, secure payments, and quick shipping. Explore my work to see how I can enhance your next project.",
+      tags: [
+        { name: "React",
+          color: "blue-text-gradient",
+        },
+        { name: "tailwindcss",
           color: "green-text-gradient",
         },
        
@@ -145,13 +180,13 @@ import {
         { name: "Laravel",
           color: "blue-text-gradient",
         },
-        { name: "SQL Server",
+        { name: "MySQL",
           color: "green-text-gradient",
         },
       ],
       image: accounting,
-      source_code_link: "https://github.com/akbarsazish/str-admin-panel",
-      see_live_link: "https://starfoods.ir/loginAdmin",
+      source_code_link: "https://github.com/akbarsazish/starfoods",
+      see_live_link: "https://star.starfoods.ir",
     },
 
     {
@@ -231,124 +266,6 @@ import {
       image: sattagydia,
       source_code_link: "https://sattagydia.com/",
       see_live_link: "https://sattagydia.com/",
-    },
-
-    {
-      name: "Math",
-      description: "Math magicians is a website for all fans of mathematics. It allows user to make simple calculations and read random math related qoutes.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "green-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: math,
-      source_code_link: "https://github.com/akbarsazish/Math-Magicians",
-      see_live_link: "https://math-magicians-9om6.onrender.com/",
-    },
-    {
-      name: "Air Pollution",
-      description: "Presenting a straightforward air pollution application that offers historical air quality data for various countries worldwide. Users can easily search for specific locations to access air pollution information.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux Toolkit",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: air_pollution,
-      source_code_link: "https://github.com/akbarsazish/Air-Pollution-API",
-      see_live_link: "https://akbarsazish.github.io/Air-Pollution-API/",
-    },
-    {
-      name: "Books",
-      description: "Awesome Books website lets you add books with their titles and authors to a list and remove them when needed. The data is stored in the browser memory using localStorage for easy access. It is a simple tool for keeping track of your books.",
-      tags: [
-        {
-          name: "React",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "Redux Toolkit",
-          color: "green-text-gradient",
-        },
-        {
-          name: "CSS",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "HTML",
-          color: "blue-text-gradient",
-        },
-      ],
-      image: awesome_books,
-      source_code_link: "https://github.com/akbarsazish/Awesome-Books-ES6",
-      see_live_link: "https://akbarsazish.github.io/Awesome-Books-ES6/",
-    },
-    {
-      name: "Book Store",
-      description: "An online small project which developed by react and redux toolkit that enable users that they can add their books and authors, see list of books and they are able edit and delete the book from the list.",
-        tags: [
-          {
-            name: "React",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "Redux Toolkit",
-            color: "green-text-gradient",
-          },
-          {
-            name: "CSS",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "HTML",
-            color: "blue-text-gradient",
-          },
-        ],
-      image: book_store,
-      source_code_link: "https://github.com/akbarsazish/Bookstore-React",
-      see_live_link: "https://akbarsazish.github.io/Bookstore-React/",
-    },
-    {
-      name: "X Academy",
-      description: "X Academy is an online platform for web development and programming. I will be enhancing in the future and include tutorials on HTML, CSS, JavaScript, PHP, ASP.NET, and more, spanning front-end, back-end, mobile app development, and web design.",
-        tags: [
-          {
-            name: "JavScript",
-            color: "blue-text-gradient",
-          },
-          {
-            name: "CSS",
-            color: "pink-text-gradient",
-          },
-          {
-            name: "HTML",
-            color: "blue-text-gradient",
-          },
-        ],
-      image: online_academy,
-      source_code_link: "https://github.com/akbarsazish/Sazish-Academy",
-      see_live_link: "https://akbarsazish.github.io/Sazish-Academy/",
     },
   ];
   

@@ -38,8 +38,9 @@ const Hero = () => {
             <h1 className={`${styles.heroHeadText} text-white`}> Ali Akbar  <span className="text-[#915eff]"> Sazish </span> </h1>
             <p className={`${styles.heroSubText} mt-1 text-white-100`}>
             <span className="text-[#915eff] font-bold"> Full-stack developer </span> 
-                with over <span className="text-[#915eff] font-bold">  4 </span>
-                 years of experience, and strengths in frontend development using <span className="text-[#915eff] font-bold"> JavaScript, TypeScript, and React. </span> Skilled in IT management, leading teams, and adapting to new technologies. Passionate about creating user-friendly interfaces and delivering high-quality solutions.
+                with over <span className="text-[#915eff] font-bold"> 5 </span>
+                 years of experience, proficient in both frontend and backend development. Skilled in<span className="text-[#915eff] font-bold"> JavaScript, TypeScript, React, as well as PHP and Laravel </span>
+                for building robust, scalable web applications. Experienced in IT management, team leadership, and quickly adapting to new technologies. Passionate about delivering high-quality, user-friendly solutions.
                 {/* <div className='black-gradient py-2 px-4 font-[12px] rounded-xl outline-none w-fit text-white shadow-md shadow-primary'> <a href={cv} download="Ali Akbar Sazish CV.pdf" target='_blank'>
              Download Reusme <FaCloudDownloadAlt className="inline" />
             </a> </div> */}
