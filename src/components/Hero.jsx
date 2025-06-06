@@ -46,13 +46,13 @@ const Hero = () => {
             </a> </div> */}
             </p>
             
-                <span className="inline flex flex-row gap-2 mt-7">
-                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900" target="_blank" href="https://www.linkedin.com/in/ali-akbar-sazish/"> <FaLinkedinIn /> </a>
-                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900" target="_blank" href="https://github.com/akbarsazish"> <FaGithub /> </a>
-                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900" target="_blank" href="https://twitter.com/AliAkbarSazish1"> <FaTwitter /> </a>
-                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900" target="_blank" href="https://www.facebook.com/profile.php?id=100008137806708"> <FaFacebook /> </a>
-                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900" target="_blank" href="https://www.instagram.com/ali_sazish/"> <FaInstagram /> </a>
-                      <span onClick={copyGmailId} className="black-gradient  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer inline hover:text-teal-900">
+                <span className="flex flex-row gap-2 mt-7">
+                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900" target="_blank" href="https://www.linkedin.com/in/ali-akbar-sazish/"> <FaLinkedinIn /> </a>
+                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900" target="_blank" href="https://github.com/akbarsazish"> <FaGithub /> </a>
+                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900" target="_blank" href="https://twitter.com/AliAkbarSazish1"> <FaTwitter /> </a>
+                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900" target="_blank" href="https://www.facebook.com/profile.php?id=100008137806708"> <FaFacebook /> </a>
+                      <a className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900" target="_blank" href="https://www.instagram.com/ali_sazish/"> <FaInstagram /> </a>
+                      <span onClick={copyGmailId} className="black-gradient  w-10 h-10 rounded-full flex justify-center items-center cursor-pointer hover:text-teal-900">
                         <span id="myGmail" className="hidden"> sazishaliakbar@gmail.com </span>
                         <MdOutgoingMail />
                       </span>

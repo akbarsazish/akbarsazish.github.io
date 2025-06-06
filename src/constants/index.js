@@ -39,6 +39,7 @@ import {
         "TCollaborate with designers, product managers, and other developers to deliver complete solutions.",
       ],
     },
+
     {
       title: "Frontend Developer",
       company_name: "Artam Almas Alborz (Iran)",
@@ -66,6 +67,7 @@ import {
         "Establish and enforce policies to protect the organization’s data and IT assets, including disaster recovery and data backup strategies.",
       ],
     },
+
     {
       title: "Database Manager",
       company_name: "Ministry of industry and Commerce",
@@ -79,6 +81,7 @@ import {
         "Ensured timely backup and recovery processes to minimize data loss and downtime.",
       ],
     },
+
     {
       title: "Biometric Technical Member",
       company_name: "Ministry of Higher Education of Afghanistan",
@@ -91,6 +94,7 @@ import {
         "Consolidated data from multiple sources and integrated it into a centralized database, resulting in significant cost savings for the government.",
       ],
     },
+    
     {
       title: "Mentor (Volunteer)",
       company_name: "Microver",
