@@ -36,7 +36,7 @@ import {
         "Integrate third-party services and APIs to extend application functionality.",
         "Ensure application security, including authentication, authorization, and data protection.",
         "Test, debug, and troubleshoot issues in both front-end and back-end components.",
-        "TCollaborate with designers, product managers, and other developers to deliver complete solutions.",
+        "Collaborate with designers, product managers, and other developers to deliver complete solutions.",
       ],
     },
 
