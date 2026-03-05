@@ -1,4 +1,5 @@
 import {
+    tawseelimage,
     likeCard,
     starfoods,
     accounting,
@@ -8,7 +9,7 @@ import {
     starfood,
     tawseel,
     crm,
-    sattagydia,
+    
 
   } from "../assets";
 
@@ -28,9 +29,9 @@ import {
     {
       title: "Full Stack Developer",
       company_name: "Tawseel E-Commerce and Logistic LLC (Oman)",
-      icon: tawseel,
+      icon: tawseelimage,
       iconBg: "#383E56",
-      date: "March 2025 - PRESENT",
+      date: "March 2025 - March 2026",
       points: [
         "Design and develop user-friendly front-end interfaces, server-side logic and APIs.",
         "Integrate third-party services and APIs to extend application functionality.",
@@ -145,8 +146,30 @@ import {
   
   const projects = [
     {
+      name: "Tawseel E-Commerce & Logistics",
+      description:"Built innovative e-commerce/logistics platform using CodeIgniter 4, Bootstrap, and JavaScript. Integrated payment, optimized MySQL migrations, and deployed responsive UIs via cPanel. Key innovations: 40% faster loads, secure global expansion tools—driving 25% cost cuts and 10x user growth.",
+      tags: [
+        { name: "CodeIgniter",
+          color: "blue-text-gradient",
+        },
+        { name: "Bootstrap",
+          color: "green-text-gradient",
+        },
+       
+        { name: "Jquery",
+          color: "pink-text-gradient",
+        },
+        { name: "MySQL",
+          color: "green-text-gradient",
+        },
+      ],
+      image: tawseelimage,
+      source_code_link: "https://github.com/akbarsazish/tawseelAdmin",
+      see_live_link: "https://tawseelonline.om/",
+    },
+    {
       name: "Like Card",
-      description:"This project integrates a secure server-to-server API for card-based payments, enabling customers to purchase products seamlessly. It processes transactions directly on the backend, ensuring fast, secure, and customizable checkout without, while maintaining compliance and real-time validation for a smooth payment experience.",
+      description:"Developed a secure server-to-server API for card-based payments, powering seamless product purchases. Backend-driven transaction processing delivers fast, customizable checkouts with real-time validation and full compliance—ensuring a frictionless user experience without frontend dependencies.",
       tags: [
         { name: "React",
           color: "blue-text-gradient",
@@ -247,30 +270,7 @@ import {
       see_live_link: "https://star4.ir",
     },
 
-    {
-      name: "Sattagydia",
-      description: "Sattagydia.com is a responsive news website focused on providing the latest updates news. Developed using WordPress, it offers a modern, visually appealing design that adapts seamlessly across devices. The responsive layout ensures an optimal viewing experience on desktops, tablets, and mobiles.",
-      tags: [
-        { name: "WordPress",
-          color: "blue-text-gradient",
-        },
-        { name: "JavaScript",
-          color: "green-text-gradient",
-        },
-        {name: "Bootstrap",
-          color: "pink-text-gradient",
-        },
-        {name: "CSS",
-          color: "blue-text-gradient",
-        },
-        { name: "MySql",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: sattagydia,
-      source_code_link: "https://sattagydia.com/",
-      see_live_link: "https://sattagydia.com/",
-    },
+  
   ];
   
   export {experiences, frontEndSkills, backEndSkills, toolsAndMethods, softSkills, projects };

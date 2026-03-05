@@ -59,7 +59,7 @@ const Hero = () => {
                   </span>
             
                 <p className={`${styles.heroSubText} mt-6 text-white-100`}> Email:  <span className="text-[#915eff]"> sazishaliakbar@gmail.com </span> </p>
-                <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +9100473242 </span> </p>
+                <p className={`${styles.heroSubText} text-white-100`}> Phone:  <span className="text-[#915eff]"> +93 701476186 </span> </p>
           
                 <fieldset>
                   <legend><span> My Hobbies </span></legend>

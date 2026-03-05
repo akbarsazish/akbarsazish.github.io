@@ -14,7 +14,8 @@ import likeCard from "./likeCard.png";
 import starfood from "./starfood.png";
 import crm from "./crm.png";
 import accounting from "./accounting.jfif";
-import sattagydia from "./sattagydia.png";
+import tawseelimage from "./tawseelimage.png";
+
 
 export {
   logo,
@@ -31,5 +32,6 @@ export {
   starfood,
   crm,
   accounting,
-  sattagydia
+  tawseelimage,
+
 };
