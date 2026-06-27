@@ -167,28 +167,7 @@ import {
       source_code_link: "https://github.com/akbarsazish/tawseelAdmin",
       see_live_link: "https://tawseelonline.om/",
     },
-    {
-      name: "Like Card",
-      description:"Developed a secure server-to-server API for card-based payments, powering seamless product purchases. Backend-driven transaction processing delivers fast, customizable checkouts with real-time validation and full compliance—ensuring a frictionless user experience without frontend dependencies.",
-      tags: [
-        { name: "React",
-          color: "blue-text-gradient",
-        },
-        { name: "tailwindcss",
-          color: "green-text-gradient",
-        },
-       
-        { name: "Laravel",
-          color: "pink-text-gradient",
-        },
-        { name: "MySQL",
-          color: "green-text-gradient",
-        },
-      ],
-      image: likeCard,
-      source_code_link: "https://github.com/akbarsazish/likeCard/tree/master",
-      see_live_link: "https://likecardu.tawseelonline.om/",
-    },
+
 
     {
       name: "Kasb Star",
@@ -213,7 +192,7 @@ import {
       ],
       image: accounting,
       source_code_link: "https://github.com/akbarsazish/starfoods",
-      see_live_link: "https://star.starfoods.ir",
+      see_live_link: "https://starfoods.ir/Admin",
     },
 
     {
@@ -239,7 +218,7 @@ import {
       ],
       image: starfood,
       source_code_link: "https://github.com/akbarsazish/starfoods",
-      see_live_link: "https://star.starfoods.ir",
+      see_live_link: "https://starfoods.ir",
     },
 
     {
